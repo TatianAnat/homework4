@@ -43,7 +43,7 @@ public class Main {
         System.out.println(massDifference);
 
         var massRemainder = boxerMass2 % boxerMass1;
-        System.out.println( massRemainder);
+        System.out.println(massRemainder);
 
 
 
