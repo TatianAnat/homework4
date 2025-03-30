@@ -45,6 +45,15 @@ public class Main {
         var massRemainder = boxerMass2 % boxerMass1;
         System.out.println(massRemainder);
 
+        var timeJob = 640;
+        var timeWorker = 8;
+        var totalWorker = timeJob/timeWorker;
+        System.out.println("Всего работников в компании — "+totalWorker+" человек");
+
+        totalWorker = totalWorker + 94;
+        var timeJob2 = totalWorker * timeWorker;
+        System.out.println("Если в компании работает "+totalWorker+" человек, то всего "+timeJob2+" часов работы может быть поделено между сотрудниками");
+
 
 
     }
