@@ -52,7 +52,7 @@ public class Main {
 
         totalWorker = totalWorker + 94;
         var timeJob2 = totalWorker * timeWorker;
-        System.out.println("Если в компании работает "+totalWorker+" человек, то всего "+timeJob2+" часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + totalWorker + " человек, то всего " + timeJob2 + " часов работы может быть поделено между сотрудниками");
 
 
 
